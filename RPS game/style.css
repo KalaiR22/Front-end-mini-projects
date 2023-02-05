@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+#end{
+    height: 8rem;
+    width: 8rem;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: white;
+    height: 10rem;
+    width:10rem;
+    border-style: none;
+    border-radius: 15%;
+    margin: 1rem;
+    font-size: 3rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color: azure;
+}
+.dashboard{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
