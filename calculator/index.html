@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BILL CALCULATOR</h1>
+    <div class="form">
+    <form action="">
+        <div class="space">
+        <label for="">Bill Total:</label>
+        <label for="">$</label>
+        <input 
+        onkeyup="calculatebill()"
+        id="billInputTotal"
+        type="text" 
+        placeholder="0.00">
+    </div>
+        <br>
+        <div class="space">
+        <label for="">Tip:</label>
+        <label for="">%</label>
+        <input 
+        onkeyup="calculatebill()"
+        id="TipInput"
+        type="text" 
+        placeholder="10">
+    </div>
+        <br>
+        <div class="space">
+        <label for="">people:</label>
+        <input 
+        onkeyup="calculatebill()"
+        type="text" 
+        id="numberofpeople">
+    </div>
+        <h1>Total per person</h1>
+        <h1 id="perperson">$0.00</h1>
+        
+    </form>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
