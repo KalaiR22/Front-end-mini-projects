@@ -1,0 +1,39 @@
+
+.head{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.des{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.sq{
+height:15rem;
+width:15rem;
+border-style: none;
+border-radius:10%;
+}
+#square1{
+background-color:#83C3B0;
+margin:3rem;
+}
+#square2{
+background-color:#FF8787;
+margin:3rem;
+}
+#square3{
+background-color:#AC7088;
+margin:3rem;
+}
+#clear{
+    background-color:#B6E388 ;
+    width:6rem;
+    height:3rem ;
+    font-size:larger;
+    margin-left: 46.5%;
+    margin-top: 2rem;
+    border-style: none;
+    border-radius:20%;
+}
